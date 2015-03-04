@@ -257,7 +257,7 @@ def at_reminder(client, channel, nick, args):
     args = args[1:]
 
     # Default timezone
-    timezone = pytz.timezone(settings.TIMEZONE)
+    timezone = pytz.timezone(getattr(settings, 'TIMEZONE', 'US/Eastern'))
 
     try:
         # If there was a timezone passed in

@@ -27,7 +27,7 @@ if pip_version >= (1, 5):
 
 setup(
     name='helga-reminders',
-    version='0.1.0',
+    version='0.1.1',
     description="A helga command for scheduling one time or recurring reminders",
     classifiers=[
         'Development Status :: 4 - Beta',

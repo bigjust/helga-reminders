@@ -51,6 +51,12 @@ Each reminder setting command acts as follows:
     This plugin requires database access
 
 
+Settings
+--------
+
+**TIMEZONE** The default timezone (default value is 'US/Eastern')
+
+
 License
 -------
 
